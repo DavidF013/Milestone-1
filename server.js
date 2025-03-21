@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 5000;
   
     
 //Middleware 
-app.use(express.static('Milestone_1'))
+app.use(express.static('Milestone-1'))
 app.use(express.json())
 
 app.get('/', (req, res)=>{
