@@ -1,0 +1,29 @@
+{
+  "name": "web-development-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidF013/web-development-project.git"
+  },
+  "keywords": [],
+  "author": "",  
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidF013/web-development-project/issues"
+  },
+  "homepage": "https://github.com/DavidF013/web-development-project#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

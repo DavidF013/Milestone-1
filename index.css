@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(255, 115, 0);
+   margin: 0px;
+     
+}
+
+h1{
+    color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+    color: azure;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+
+}
+
+h2{ /* Welcome message in home page */
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    margin: 20px;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-size: 250%;
+    font-family:Georgia, 'Times New Roman', Times, serif 
+    
+    
+}
+
+p{ /* the 3 paragraohs in the about me page */
+    padding: 8px;
+    margin: 30px;
+    color: black;
+    font-size:150%
+}
+
+
+
+
+ul /* entire navigation bar */{
+    list-style-type: none; /* removes the bullet points */
+    background-color: bisque;
+    padding: 0%;
+    margin: 0px;
+
+    overflow: hidden;
+}
+
+a{ /* the text in the navigation bar */
+    color: rgb(8, 6, 1);
+    text-decoration: none; /* removes the underline and adds other things */
+    padding: 15px;
+    display: block; /* changes the look of the words in the navigation bar */
+    text-align: center;
+}
+   
+a:hover{
+    background-color: rgb(250, 191, 81);
+}
+
+li{
+    float: left; /* makes thew words in the navigation bar change orientation ()vertical/horizontal */
+}
+
+a1{  /* Picture of ksu sign */
+    margin-top: 1%;
+    size: 40px;
+    align-items: center;
+}    
+
+a2{ /* picture of IT degree */
+    margin-left: 5%;
+   float:inherit 
+}
+ 
+a3{ /* picture of video games */
+    margin-right: 7%;
+    float:right
+}
+
+h4{
+    float: left;
+    margin-right: 1%;
+}   
