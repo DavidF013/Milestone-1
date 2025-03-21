@@ -11,7 +11,7 @@ app.use(express.static('Milestone_1'))
 app.use(express.json())
 
 app.get('/', (req, res)=>{
-    res.sendFile(__dirname + '/Milestone_1/contact.html')
+    res.sendFile(__dirname + '/Milestone-1/contact.html')
 }) 
 
 
